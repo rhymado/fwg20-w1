@@ -1,0 +1,12 @@
+1. bikin repository
+2. buat personal access token via setting > developer setting
+3. buat generic credential didalam credential manager
+4. pastikan git terinstall
+5. pastikan config git credential.helper = manager-core via git config -l
+6. masuk ke directory project, cd namaDir
+7. inisialisasi git directory menggunakan git init
+8. lengkapi config user.email, user.name
+9. persiapkan file untuk disimpan ke git dengan menggunakan git add namaDir
+10. simpan secara permanen dengan judul tertentu menggunakan git commit -m "pesan"
+11. setup github menggunakan git remote untuk menghubungkan lokal dengan remote
+12. sinkronisasi antara lokal dengan remote menggunakan git push -u tujuan branch
