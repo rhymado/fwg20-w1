@@ -5,3 +5,11 @@ git pull <remote> <branch>
 
 branch => cabang dari suatu repository
 digunakan untuk melakukan perubahan dan percabangan
+
+git branch => list branch
+git branch <branch> => membuat branch dengan mengcopy branch saat ini
+git branch -d <branch> => hapus branch
+
+checkout => berpindah branch
+
+git checkout <branch> => berpindah ke branch
