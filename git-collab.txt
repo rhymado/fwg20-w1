@@ -1,0 +1,4 @@
+pull => sinkronisasi remote dan local repo
+download semua perubahan di remote lalu disatukan ke local repo
+
+git pull <remote> <branch>
