@@ -7,11 +7,16 @@ branch => cabang dari suatu repository
 digunakan untuk melakukan perubahan dan percabangan
 
 git branch => list branch
-git branch <branch> => membuat branch dengan meng-copy branch saat ini
-git branch -d <branch> => hapus branch
-git branch -m <old-branch> <new-branch> => pindah atau rename branch
+git branch <branch> => membuat <branch> dengan meng-copy branch saat ini
+git branch -d <branch> => hapus <branch>
+git branch -m <old-branch> <new-branch> => pindah atau rename <old-branch> menjadi <new-branch>
 
 checkout => berpindah branch
 
-git checkout <branch> => berpindah ke branch
-git checkout -b <branch> => berpindah ke branch, jika tidak ditemukan maka buat branch tersebut lalu pindah ke branch
+git checkout <branch> => berpindah ke <branch>
+git checkout -b <branch> => berpindah ke <branch>, jika tidak ditemukan maka buat <branch> 
+                            tersebut lalu pindah ke <branch>
+
+merge => menggabungkan 2 atau lebih branch
+
+git merge <branch> => menggabungkan <branch> ke branch saat ini
